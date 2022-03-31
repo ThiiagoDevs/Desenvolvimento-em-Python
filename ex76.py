@@ -11,6 +11,8 @@ listagem = ('Lápis', 1.75,
             'kitcanetas', 22.55,
             'Livros', 34.99)
 print('='*40)
+print(f'{"MATÉRIAIS ESCOLARES":^40}')
+print('='*40)
 print(f'{"LISTAGEM DE PREÇO":^40}')
 print('='*40)
 for pos in range(0, len(listagem)):
