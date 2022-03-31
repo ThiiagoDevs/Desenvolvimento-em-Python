@@ -1,7 +1,7 @@
 '''Simulador de Caixa Eletrônico'''
-print('='*30)
+print('='*50)
 print('{:^30}'.format(' BANCO DEVS'))
-print('='*30)
+print('='*50)
 valor = int(input('Que valor você que sacar? R$ '))
 total = valor
 céd = 200
@@ -30,6 +30,6 @@ while True:
         totcéd = 0
         if total == 0:
             break
-print('='*30)
+print('='*50)
 print('VOLTE SEMPRE AO BANCO DEVS! TENHA UM BOM!')
-print('='*40)
+print('='*50)
