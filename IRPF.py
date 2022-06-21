@@ -1,5 +1,5 @@
 # Cálculo do IRPF
-rendimento_anual = str(input('Qual valor do seu rendimento bruto anual? '))
+rendimento_anual = float(input('Qual valor do seu rendimento bruto anual? '))
 if rendimento_anual < 22847.77:
     aliquota = 0
 elif (rendimento_anual >= 22847.77):
